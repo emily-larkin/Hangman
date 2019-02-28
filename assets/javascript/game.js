@@ -9,13 +9,12 @@ var guessingText = document.getElementById("guessing-text");
 var guessesRemainingText = document.getElementById("guessesRemaining-text");
 var lettersGuessedText = document.getElementById("lettersGuessed-text");
 
-var wordsToGuess = [dog, cat, horse, sheep, goat];
+directionsText.textContent = "Press any key to get started!";
 
+var wordsToGuess = ["dog", "cat", "horse", "sheep", "goat"];
 var wordsToGuess = wordsToGuess[Math.floor(Math.random() * wordsToGuess.length)]; {
     console.log(wordsToGuess);
 }
-
-directionsText.textContent = "Press any key to get started!";
 
 document.onkeyup = function(event) {
     var userLetter = event.key
