@@ -19,7 +19,9 @@ var wordsToGuess = wordsToGuess[Math.floor(Math.random() * wordsToGuess.length)]
 document.onkeyup = function(event) {
     var userLetter = event.key
 
-    wins.textContent = "Wins: " + wins;
-    // guessing.textContent = 
 
+    winsText.textContent = "Wins: " + wins;
+    // guessing.textContent = 
+    guessesRemainingText.textContent = "Remaining Guesses: " + guessesRemaining;
+    lettersGuessedText.textContent = "Letters Guesses: " + lettersGuessed;
 }
