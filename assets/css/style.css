@@ -1,0 +1,12 @@
+#directions-text {
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+#wins-text,
+#guessing-text,
+#guessesRemaining-text,
+#lettersGuessed-text {
+    font-size: 18px;
+    line-height: 1.5em;
+}
